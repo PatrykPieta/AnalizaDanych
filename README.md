@@ -1,0 +1,2 @@
+# AnalizaDanych
+AGH
