@@ -69,7 +69,7 @@ def load_json_to_postgres(json_file_path: str = "data/raw/offers_latest.json") -
                 """
 
                 execute_values(cur, query, records, page_size=1000)
-                logger.info("✅ Pomyślnie załadowano %d ofert do tabeli 'raw_offers'!", len(records))
+                logger.info("[OK] Pomyslnie zaladowano %d ofert do tabeli 'raw_offers'!", len(records))
                 return len(records)
 
     except psycopg2.OperationalError as op_err:
