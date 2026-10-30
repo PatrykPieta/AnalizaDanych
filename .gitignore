@@ -15,9 +15,10 @@ venv.bak/
 .ipynb_checkpoints
 */.ipynb_checkpoints/*
 
-# Data files (do not commit raw gigabytes of data to Git!)
+# Data files
 data/raw/*
 !data/raw/.gitkeep
+!data/raw/offers_latest.json
 data/processed/*
 !data/processed/.gitkeep
 *.sqlite
